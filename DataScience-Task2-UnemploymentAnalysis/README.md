@@ -1,302 +1,157 @@
-\# 📊 Unemployment Analysis with Python
+# 📊 Unemployment Analysis with Python
 
+## 📌 Project Overview
 
+This project was developed as part of the **Oasis Infobyte Data Science Internship**.
 
-\## 📌 Project Overview
+The objective is to analyze unemployment trends in India using Python and visualize the data through different charts.
 
+---
 
+## 🎯 Objective
 
-This project is developed as part of the \*\*Oasis Infobyte Data Science Internship\*\*.
+- Analyze unemployment data in India.
+- Clean and preprocess the dataset.
+- Visualize unemployment trends.
+- Compare unemployment rates across different regions.
+- Generate meaningful insights using data analysis.
 
+---
 
+## 🛠️ Technologies Used
 
-The objective of this project is to analyze unemployment trends in India using Python and data visualization techniques.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
+---
 
-
-\---
-
-
-
-\## 🎯 Objective
-
-
-
-\- Analyze unemployment data in India.
-
-\- Perform data cleaning and preprocessing.
-
-\- Visualize unemployment trends.
-
-\- Compare unemployment rates across different regions.
-
-\- Identify useful insights from the dataset.
-
-
-
-\---
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Seaborn
-
-
-
-\---
-
-
-
-\## 📂 Dataset
-
-
+## 📂 Dataset
 
 Dataset Used:
 
+**Unemployment_Rate_upto_11_2020.csv**
 
+### Dataset Features
 
-\- \*\*Unemployment\_Rate\_upto\_11\_2020.csv\*\*
+- Region
+- Date
+- Frequency
+- Estimated Unemployment Rate (%)
+- Estimated Employed
+- Estimated Labour Participation Rate (%)
+- Longitude
+- Latitude
 
+---
 
+# 📸 Project Screenshots
 
-Dataset contains:
+## 📊 Average Unemployment Rate by Region
 
+![Region](screenshots/region_unemployment.png)
 
+---
 
-\- Region
+## 📈 Unemployment Trend Over Time
 
-\- Date
+![Trend](screenshots/unemployment_trend.png)
 
-\- Frequency
+---
 
-\- Estimated Unemployment Rate (%)
+## 🔥 Correlation Heatmap
 
-\- Estimated Employed
+![Heatmap](screenshots/heatmap.png)
 
-\- Estimated Labour Participation Rate (%)
+---
 
-\- Longitude
+## 👨‍💼 Labour Participation Rate
 
-\- Latitude
+![Labour](screenshots/labour_participation.png)
 
+---
 
+## 📉 Employment vs Unemployment
 
-\---
+![Scatter](screenshots/scatter_plot.png)
 
+---
 
+## 📊 Data Analysis Performed
 
-\## 📊 Exploratory Data Analysis (EDA)
+- Data Cleaning
+- Missing Value Analysis
+- Statistical Summary
+- Regional Analysis
+- Trend Analysis
+- Correlation Analysis
+- Data Visualization
 
+---
 
+## 📈 Key Insights
 
-The following analyses were performed:
+- Cleaned the unemployment dataset.
+- Compared unemployment rates across different states.
+- Visualized unemployment trends over time.
+- Studied labour participation rates.
+- Identified relationships between employment and unemployment.
 
+---
 
+## 📁 Project Structure
 
-\- Dataset Information
-
-\- Missing Value Analysis
-
-\- Data Cleaning
-
-\- Statistical Summary
-
-\- Regional Analysis
-
-\- Trend Analysis
-
-
-
-\---
-
-
-
-\# 📸 Project Screenshots
-
-
-
-\## Average Unemployment Rate by Region
-
-
-
-!\[Region](screenshots/region\_unemployment.png)
-
-
-
-\---
-
-
-
-\## Unemployment Trend Over Time
-
-
-
-!\[Trend](screenshots/unemployment\_trend.png)
-
-
-
-\---
-
-
-
-\## Correlation Heatmap
-
-
-
-!\[Heatmap](screenshots/heatmap.png)
-
-
-
-\---
-
-
-
-\## Labour Participation Rate
-
-
-
-!\[Labour](screenshots/labour\_participation.png)
-
-
-
-\---
-
-
-
-\## Employment vs Unemployment
-
-
-
-!\[Scatter](screenshots/scatter\_plot.png)
-
-
-
-\---
-
-
-
-\## 📈 Key Insights
-
-
-
-\- Cleaned the unemployment dataset.
-
-\- Compared unemployment rates across different regions.
-
-\- Visualized unemployment trends.
-
-\- Studied labour participation rates.
-
-\- Identified relationships between employment and unemployment.
-
-
-
-\---
-
-
-
-\## 📁 Project Structure
-
-
-
-```
-
+```text
 DataScience-Task2-UnemploymentAnalysis/
-
-│── unemployment\_analysis.py
-
-│── Unemployment\_Rate\_upto\_11\_2020.csv
-
+│── unemployment_analysis.py
+│── Unemployment_Rate_upto_11_2020.csv
 │── README.md
-
 │── requirements.txt
-
 └── screenshots/
-
-&#x20;   ├── region\_unemployment.png
-
-&#x20;   ├── unemployment\_trend.png
-
-&#x20;   ├── heatmap.png
-
-&#x20;   ├── labour\_participation.png
-
-&#x20;   └── scatter\_plot.png
-
+    ├── region_unemployment.png
+    ├── unemployment_trend.png
+    ├── heatmap.png
+    ├── labour_participation.png
+    └── scatter_plot.png
 ```
 
+---
 
+## 🚀 How to Run
 
-\---
-
-
-
-\## 🚀 How to Run
-
-
-
-\### Install Dependencies
-
-
+### Install Dependencies
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
-
-
-\### Run the Project
-
-
+### Run the Project
 
 ```bash
-
-python unemployment\_analysis.py
-
+python unemployment_analysis.py
 ```
 
+---
 
-
-\---
-
-
-
-\## 📌 Conclusion
-
-
+## 📌 Conclusion
 
 This project demonstrates how Python can be used for data analysis and visualization to understand unemployment trends across India.
 
+The project includes:
 
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Trend Analysis
+- Correlation Analysis
+- Insight Generation
 
-The project includes data cleaning, exploratory data analysis, graphical visualization, and interpretation of unemployment statistics.
+---
 
+## 👨‍💻 Author
 
-
-\---
-
-
-
-\## 👨‍💻 Author
-
-
-
-\*\*Grandhi Sajith\*\*
-
-
+**Grandhi Sajith**
 
 Oasis Infobyte Data Science Internship
-
