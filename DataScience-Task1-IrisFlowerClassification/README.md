@@ -1,64 +1,174 @@
-\# Iris Flower Classification
+# 🌸 Iris Flower Classification using Machine Learning
 
+## 📌 Project Overview
 
+This project was developed as part of the **Oasis Infobyte Data Science Internship**.
 
-\## Objective
+The objective is to classify Iris flowers into three species:
 
-The objective of this project is to classify Iris flowers into three species (Setosa, Versicolor, and Virginica) using Machine Learning algorithms.
+- 🌼 Setosa
+- 🌸 Versicolor
+- 🌺 Virginica
 
+using Machine Learning algorithms.
 
+---
 
-\## Technologies Used
+## 🎯 Objective
 
-\- Python
+Build a Machine Learning model that accurately predicts the species of an Iris flower based on its sepal and petal measurements.
 
-\- Pandas
+---
 
-\- NumPy
+## 🛠️ Technologies Used
 
-\- Matplotlib
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-\- Seaborn
+---
 
-\- Scikit-learn
+## 📂 Dataset
 
+The Iris dataset is loaded from the **Scikit-learn** library.
 
+### Dataset Information
 
-\## Dataset
+- Total Samples: **150**
+- Features: **4**
+- Classes: **3**
 
-The Iris dataset is loaded from the Scikit-learn library. It contains 150 samples with four features:
+Features:
 
-\- Sepal Length
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
-\- Sepal Width
+---
 
-\- Petal Length
+# 📸 Project Screenshots
 
-\- Petal Width
+## 🌼 Species Distribution
 
+![Species Distribution](screenshots/countplot.png)
 
+---
 
-\## Machine Learning Models
+## 🌸 Pair Plot
 
-\- Logistic Regression
+![Pair Plot](screenshots/pairplot.png)
 
-\- K-Nearest Neighbors (KNN)
+---
 
-\- Decision Tree
+## 📦 Box Plot
 
+![Box Plot](screenshots/petal_length_(cm).png)
 
+---
 
-\## Evaluation Metrics
+## 🔥 Correlation Heatmap
 
-\- Accuracy Score
+![Heatmap](screenshots/heatmap.png)
 
-\- Confusion Matrix
+---
 
-\- Classification Report
+## 📊 Histogram
 
+![Histogram](screenshots/histogram.png)
 
+---
 
-\## Conclusion
+## 🤖 Model Accuracy Comparison
 
-This project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis, model training, evaluation, and prediction.
+![Model Comparison](screenshots/model_comparison.png)
 
+---
+
+## 🤖 Machine Learning Models Used
+
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree Classifier
+
+---
+
+## 📈 Model Performance
+
+| Model | Accuracy |
+|--------|----------|
+| Logistic Regression | **100%** |
+| K-Nearest Neighbors | **100%** |
+| Decision Tree | **100%** |
+
+---
+
+## 🔍 Prediction
+
+Example Prediction
+
+```text
+Predicted Flower Species:
+Setosa
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+DataScience-Task1-IrisFlowerClassification/
+│── iris_flower_classification.py
+│── README.md
+│── requirements.txt
+└── screenshots/
+    ├── countplot.png
+    ├── pairplot.png
+    ├── heatmap.png
+    ├── histogram.png
+    ├── model_comparison.png
+```
+
+---
+
+## 🚀 How to Run
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project
+
+```bash
+python iris_flower_classification.py
+```
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates the complete Machine Learning workflow:
+
+- Data Loading
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Feature Scaling
+- Model Training
+- Model Evaluation
+- Prediction
+
+All three models achieved excellent performance on the Iris dataset.
+
+---
+
+## 👨‍💻 Author
+
+**Grandhi Sajith**
+
+Oasis Infobyte Data Science Internship
